@@ -1,0 +1,100 @@
+
+
+
+
+
+:root {
+    --main-bg-color:#2874f0;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Oswald', sans-serif
+
+}
+footer{
+    background-color:var(--main-bg-color);
+    height: 12vh;
+
+
+}
+.search{
+    display: flex;
+    align-items: center
+}
+.search input{
+    width: 350px;
+    height: 20px;
+    margin: 0 99px;
+    border-radius: 3px;
+    margin: 0 40px 0 40px;
+    padding: 0 12px;
+}
+
+.btn{
+    padding: 6px 11px;
+    color: white;
+    background: blue;
+    border: 2px solid rgb(33, 33, 33);
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.search button{
+    font-family: 'Oswald', sans-serif
+}
+.container{
+    min-height: calc(100vh - 70px - 12vh);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 125px;
+    padding: 0 28px;
+}
+nav ul{
+    height: 70px;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    cursor:pointer;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    color:  black;
+    font-weight: bold;
+}
+
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif
+
+}
+.slider{
+    margin: 12px auto;
+    width: 26vw;
+}
